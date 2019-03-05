@@ -1,0 +1,81 @@
+h1 {
+  text-align: center;
+}
+
+
+/* =========== Add Todo Form =========== */
+.add-form {
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.add-input {
+  display: block;
+  background-color: rgba(255,255,255,.1);
+  font-color: white;
+  border: 0px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-grow: 1;
+  font-size: 2rem;
+  color: white;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.add-btn {
+  display: block;
+  margin-left: auto;
+  /* margin-left: 10px; */
+  font-size: 2rem;
+  background-color: #00ff77;
+  color: black;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 14px;
+}
+
+/* =========== Todo List  =========== */
+.todoList {
+  background-color: #323232;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 5px auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.todo-item-checkbox {
+  margin-right: 20px;
+}
+
+.todo-item-text {
+  font-size: 1.5rem;
+  margin: 0px;
+}
+
+.todo-item-remove {
+  margin-left: auto;
+  /* margin-right: 10px; */
+  font-size: 2rem;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 14px;
+}
